@@ -1,17 +1,18 @@
 
-HTML Editor for Cocoa
+<h1>HTML Editor for Cocoa</h1>
+![Alt text](https://raw.githubusercontent.com/max9xs/M9-HTML-Editor/master/screenshot.png "Optional Title")
 
 
-How to use:
+<p2>How to use:</p2>
 
-let editor=M9Editor(frame: NSMakeRect(0,0,300,300));
+<pre> let editor=M9Editor(frame: NSMakeRect(0,0,300,300));
 self.view.addSubview(editor);
 editor.setContent("<h1>Hello Max9xs Here.</h1>")
-print(editor.getContent());
+print(editor.getContent()); </pre>
 
 
 
-Features
+<p2>Features</p2>
 - Bold
 - Italic
 - Underline
@@ -20,7 +21,3 @@ Features
 - Font-Size
 
 
-
-[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
-
-![Alt text](https://raw.githubusercontent.com/max9xs/M9-HTML-Editor/master/screenshot.png "Optional Title")

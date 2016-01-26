@@ -3,7 +3,7 @@
 
 
 
-![Alt text](https://raw.githubusercontent.com/max9xs/M9-HTML-Editor/master/screenshot.png "Optional Title")
+![Alt text](https://raw.githubusercontent.com/max9xs/M9-HTML-Editor/master/screenshot.png "M9 HTML Editor Cocoa")
 
 
 <h2>How to use:</h2>

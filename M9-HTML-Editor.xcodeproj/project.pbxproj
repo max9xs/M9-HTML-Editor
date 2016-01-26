@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56621A3F1C57EE8D0001E86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56621A3E1C57EE8D0001E86D /* AppDelegate.swift */; };
+		56621A411C57EE8D0001E86D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56621A401C57EE8D0001E86D /* ViewController.swift */; };
+		56621A431C57EE8D0001E86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56621A421C57EE8D0001E86D /* Assets.xcassets */; };
+		56621A461C57EE8D0001E86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56621A441C57EE8D0001E86D /* Main.storyboard */; };
+		56621A511C57EE8E0001E86D /* M9_HTML_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56621A501C57EE8E0001E86D /* M9_HTML_EditorTests.swift */; };
+		56621A5C1C57EE8E0001E86D /* M9_HTML_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56621A5B1C57EE8E0001E86D /* M9_HTML_EditorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56621A4D1C57EE8E0001E86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56621A331C57EE8D0001E86D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56621A3A1C57EE8D0001E86D;
+			remoteInfo = "M9-HTML-Editor";
+		};
+		56621A581C57EE8E0001E86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56621A331C57EE8D0001E86D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56621A3A1C57EE8D0001E86D;
+			remoteInfo = "M9-HTML-Editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56621A3B1C57EE8D0001E86D /* M9-HTML-Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M9-HTML-Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56621A3E1C57EE8D0001E86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56621A401C57EE8D0001E86D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56621A421C57EE8D0001E86D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56621A451C57EE8D0001E86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56621A471C57EE8D0001E86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56621A4C1C57EE8E0001E86D /* M9-HTML-EditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M9-HTML-EditorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56621A501C57EE8E0001E86D /* M9_HTML_EditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M9_HTML_EditorTests.swift; sourceTree = "<group>"; };
+		56621A521C57EE8E0001E86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56621A571C57EE8E0001E86D /* M9-HTML-EditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M9-HTML-EditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56621A5B1C57EE8E0001E86D /* M9_HTML_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M9_HTML_EditorUITests.swift; sourceTree = "<group>"; };
+		56621A5D1C57EE8E0001E86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56621A381C57EE8D0001E86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56621A491C57EE8E0001E86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56621A541C57EE8E0001E86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56621A321C57EE8D0001E86D = {
+			isa = PBXGroup;
+			children = (
+				56621A3D1C57EE8D0001E86D /* M9-HTML-Editor */,
+				56621A4F1C57EE8E0001E86D /* M9-HTML-EditorTests */,
+				56621A5A1C57EE8E0001E86D /* M9-HTML-EditorUITests */,
+				56621A3C1C57EE8D0001E86D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56621A3C1C57EE8D0001E86D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56621A3B1C57EE8D0001E86D /* M9-HTML-Editor.app */,
+				56621A4C1C57EE8E0001E86D /* M9-HTML-EditorTests.xctest */,
+				56621A571C57EE8E0001E86D /* M9-HTML-EditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56621A3D1C57EE8D0001E86D /* M9-HTML-Editor */ = {
+			isa = PBXGroup;
+			children = (
+				56621A3E1C57EE8D0001E86D /* AppDelegate.swift */,
+				56621A401C57EE8D0001E86D /* ViewController.swift */,
+				56621A421C57EE8D0001E86D /* Assets.xcassets */,
+				56621A441C57EE8D0001E86D /* Main.storyboard */,
+				56621A471C57EE8D0001E86D /* Info.plist */,
+			);
+			path = "M9-HTML-Editor";
+			sourceTree = "<group>";
+		};
+		56621A4F1C57EE8E0001E86D /* M9-HTML-EditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				56621A501C57EE8E0001E86D /* M9_HTML_EditorTests.swift */,
+				56621A521C57EE8E0001E86D /* Info.plist */,
+			);
+			path = "M9-HTML-EditorTests";
+			sourceTree = "<group>";
+		};
+		56621A5A1C57EE8E0001E86D /* M9-HTML-EditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56621A5B1C57EE8E0001E86D /* M9_HTML_EditorUITests.swift */,
+				56621A5D1C57EE8E0001E86D /* Info.plist */,
+			);
+			path = "M9-HTML-EditorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56621A3A1C57EE8D0001E86D /* M9-HTML-Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56621A601C57EE8E0001E86D /* Build configuration list for PBXNativeTarget "M9-HTML-Editor" */;
+			buildPhases = (
+				56621A371C57EE8D0001E86D /* Sources */,
+				56621A381C57EE8D0001E86D /* Frameworks */,
+				56621A391C57EE8D0001E86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "M9-HTML-Editor";
+			productName = "M9-HTML-Editor";
+			productReference = 56621A3B1C57EE8D0001E86D /* M9-HTML-Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56621A4B1C57EE8E0001E86D /* M9-HTML-EditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56621A631C57EE8E0001E86D /* Build configuration list for PBXNativeTarget "M9-HTML-EditorTests" */;
+			buildPhases = (
+				56621A481C57EE8E0001E86D /* Sources */,
+				56621A491C57EE8E0001E86D /* Frameworks */,
+				56621A4A1C57EE8E0001E86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56621A4E1C57EE8E0001E86D /* PBXTargetDependency */,
+			);
+			name = "M9-HTML-EditorTests";
+			productName = "M9-HTML-EditorTests";
+			productReference = 56621A4C1C57EE8E0001E86D /* M9-HTML-EditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56621A561C57EE8E0001E86D /* M9-HTML-EditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56621A661C57EE8E0001E86D /* Build configuration list for PBXNativeTarget "M9-HTML-EditorUITests" */;
+			buildPhases = (
+				56621A531C57EE8E0001E86D /* Sources */,
+				56621A541C57EE8E0001E86D /* Frameworks */,
+				56621A551C57EE8E0001E86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56621A591C57EE8E0001E86D /* PBXTargetDependency */,
+			);
+			name = "M9-HTML-EditorUITests";
+			productName = "M9-HTML-EditorUITests";
+			productReference = 56621A571C57EE8E0001E86D /* M9-HTML-EditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56621A331C57EE8D0001E86D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Hardik;
+				TargetAttributes = {
+					56621A3A1C57EE8D0001E86D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					56621A4B1C57EE8E0001E86D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 56621A3A1C57EE8D0001E86D;
+					};
+					56621A561C57EE8E0001E86D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 56621A3A1C57EE8D0001E86D;
+					};
+				};
+			};
+			buildConfigurationList = 56621A361C57EE8D0001E86D /* Build configuration list for PBXProject "M9-HTML-Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56621A321C57EE8D0001E86D;
+			productRefGroup = 56621A3C1C57EE8D0001E86D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56621A3A1C57EE8D0001E86D /* M9-HTML-Editor */,
+				56621A4B1C57EE8E0001E86D /* M9-HTML-EditorTests */,
+				56621A561C57EE8E0001E86D /* M9-HTML-EditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56621A391C57EE8D0001E86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56621A431C57EE8D0001E86D /* Assets.xcassets in Resources */,
+				56621A461C57EE8D0001E86D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56621A4A1C57EE8E0001E86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56621A551C57EE8E0001E86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56621A371C57EE8D0001E86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56621A411C57EE8D0001E86D /* ViewController.swift in Sources */,
+				56621A3F1C57EE8D0001E86D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56621A481C57EE8E0001E86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56621A511C57EE8E0001E86D /* M9_HTML_EditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56621A531C57EE8E0001E86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56621A5C1C57EE8E0001E86D /* M9_HTML_EditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56621A4E1C57EE8E0001E86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56621A3A1C57EE8D0001E86D /* M9-HTML-Editor */;
+			targetProxy = 56621A4D1C57EE8E0001E86D /* PBXContainerItemProxy */;
+		};
+		56621A591C57EE8E0001E86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56621A3A1C57EE8D0001E86D /* M9-HTML-Editor */;
+			targetProxy = 56621A581C57EE8E0001E86D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56621A441C57EE8D0001E86D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56621A451C57EE8D0001E86D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56621A5E1C57EE8E0001E86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56621A5F1C57EE8E0001E86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		56621A611C57EE8E0001E86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "M9-HTML-Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max9xs.M9-HTML-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56621A621C57EE8E0001E86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "M9-HTML-Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max9xs.M9-HTML-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		56621A641C57EE8E0001E86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "M9-HTML-EditorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max9xs.M9-HTML-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M9-HTML-Editor.app/Contents/MacOS/M9-HTML-Editor";
+			};
+			name = Debug;
+		};
+		56621A651C57EE8E0001E86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "M9-HTML-EditorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max9xs.M9-HTML-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M9-HTML-Editor.app/Contents/MacOS/M9-HTML-Editor";
+			};
+			name = Release;
+		};
+		56621A671C57EE8E0001E86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "M9-HTML-EditorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max9xs.M9-HTML-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "M9-HTML-Editor";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		56621A681C57EE8E0001E86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "M9-HTML-EditorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max9xs.M9-HTML-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "M9-HTML-Editor";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56621A361C57EE8D0001E86D /* Build configuration list for PBXProject "M9-HTML-Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56621A5E1C57EE8E0001E86D /* Debug */,
+				56621A5F1C57EE8E0001E86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56621A601C57EE8E0001E86D /* Build configuration list for PBXNativeTarget "M9-HTML-Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56621A611C57EE8E0001E86D /* Debug */,
+				56621A621C57EE8E0001E86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56621A631C57EE8E0001E86D /* Build configuration list for PBXNativeTarget "M9-HTML-EditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56621A641C57EE8E0001E86D /* Debug */,
+				56621A651C57EE8E0001E86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56621A661C57EE8E0001E86D /* Build configuration list for PBXNativeTarget "M9-HTML-EditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56621A671C57EE8E0001E86D /* Debug */,
+				56621A681C57EE8E0001E86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56621A331C57EE8D0001E86D /* Project object */;
+}

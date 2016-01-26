@@ -15,8 +15,8 @@
 		56621A5C1C57EE8E0001E86D /* M9_HTML_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56621A5B1C57EE8E0001E86D /* M9_HTML_EditorUITests.swift */; };
 		56621A6C1C57EEE70001E86D /* M9Editor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56621A6B1C57EEE70001E86D /* M9Editor.swift */; };
 		56621A6E1C57F3250001E86D /* package in Resources */ = {isa = PBXBuildFile; fileRef = 56621A6D1C57F3250001E86D /* package */; };
-		56621A721C57FD320001E86D /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 56621A711C57FD320001E86D /* Readme */; };
 		56621A741C57FD8D0001E86D /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 56621A731C57FD8D0001E86D /* screenshot.png */; };
+		56621A761C57FFDC0001E86D /* Readme.rst in Resources */ = {isa = PBXBuildFile; fileRef = 56621A751C57FFDC0001E86D /* Readme.rst */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		56621A5D1C57EE8E0001E86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56621A6B1C57EEE70001E86D /* M9Editor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M9Editor.swift; sourceTree = "<group>"; };
 		56621A6D1C57F3250001E86D /* package */ = {isa = PBXFileReference; lastKnownFileType = folder; path = package; sourceTree = "<group>"; };
-		56621A711C57FD320001E86D /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 		56621A731C57FD8D0001E86D /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		56621A751C57FFDC0001E86D /* Readme.rst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.rst; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				56621A731C57FD8D0001E86D /* screenshot.png */,
-				56621A711C57FD320001E86D /* Readme */,
+				56621A751C57FFDC0001E86D /* Readme.rst */,
 				56621A3D1C57EE8D0001E86D /* M9-HTML-Editor */,
 				56621A4F1C57EE8E0001E86D /* M9-HTML-EditorTests */,
 				56621A5A1C57EE8E0001E86D /* M9-HTML-EditorUITests */,
@@ -238,10 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56621A721C57FD320001E86D /* Readme in Resources */,
 				56621A431C57EE8D0001E86D /* Assets.xcassets in Resources */,
 				56621A461C57EE8D0001E86D /* Main.storyboard in Resources */,
 				56621A6E1C57F3250001E86D /* package in Resources */,
+				56621A761C57FFDC0001E86D /* Readme.rst in Resources */,
 				56621A741C57FD8D0001E86D /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

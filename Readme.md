@@ -6,6 +6,17 @@
 ![Alt text](https://raw.githubusercontent.com/max9xs/M9-HTML-Editor/master/screenshot.png "M9 HTML Editor Cocoa")
 
 
+
+
+<h2>Features</h2>
+- Swift 2.0
+- Bold
+- Italic
+- Underline
+- Stroke
+- Fonts
+- Font-Size
+
 <h2>How to use:</h2>
 
 <h3>Initialize</h3>
@@ -20,14 +31,5 @@ self.view.addSubview(editor);</pre>
 <pre>print(editor.getContent()); </pre>
 
 
-
-<h2>Features</h2>
-- Swift 2.0
-- Bold
-- Italic
-- Underline
-- Stroke
-- Fonts
-- Font-Size
 
 

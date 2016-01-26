@@ -21,5 +21,6 @@ Features
 
 
 
+[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
 
 ![Alt text](https://raw.githubusercontent.com/max9xs/M9-HTML-Editor/master/screenshot.png "Optional Title")

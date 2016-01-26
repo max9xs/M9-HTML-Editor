@@ -22,4 +22,4 @@ Features
 
 
 
-![alt tag](https://raw.githubusercontent.com/max9xs/M9-HTML-Editor/master/screenshot.png)
+![Alt text](https://raw.githubusercontent.com/max9xs/M9-HTML-Editor/master/screenshot.png "Optional Title")

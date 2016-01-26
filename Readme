@@ -1,5 +1,25 @@
 
-<p1>HTML5 Editor</p1>
+HTML Editor for Cocoa
 
 
-<img src="screenshot.png"/>
+How to use:
+
+let editor=M9Editor(frame: NSMakeRect(0,0,300,300));
+self.view.addSubview(editor);
+editor.setContent("<h1>Hello Max9xs Here.</h1>")
+print(editor.getContent());
+
+
+
+Features
+- Bold
+- Italic
+- Underline
+- Stroke
+- Fonts
+- Font-Size
+
+
+
+
+![alt tag](https://github.com/max9xs/M9-HTML-Editor/blob/master/screenshot.png?raw=true)
